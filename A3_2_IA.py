@@ -45,4 +45,4 @@ melhores_celulares = df_original.sort_values(
     by='Custo_Benefício', ascending=False)
 print("Top 10 celulares em custo-benefício:")
 print(melhores_celulares[['Marca', 'Modelo',
-      'Avaliação', 'Preço', 'Veloc_Processador', 'Capac_Bateria', 'Memória_Interna', 'Capacidade_Ram', 'Custo_Benefício']].head(10))
+      'Avaliação', 'Preço', 'Capac_Bateria', 'Memória_Interna', 'Capacidade_Ram', 'Custo_Benefício']].head(10))
